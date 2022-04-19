@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -16,26 +18,63 @@
         </li> 
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50 p-30">
+        
+        <div>
+            <form>
+                <div> 
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nome">
+        
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email">
+                
+                    <label for="assunto">Assunto:</label> <br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                    
+                    
+                </div>
+                <button>Enviar</button>
+            </form>
+            
+        </div>
 
-    <h2>Endereço</h2>
+        <div class="ml-50">
+            <p>Av. Paulista, 130</p>
+            <p>São Paulo - SP</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.
+            952851231822!2d-46.64755388502211!3d-23.570136784678528!2m3!1f0!2f0!3f0!3m2!
+            1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bdec78c2bd%3A0xe90051b84d86ce71!2sAv.
+            %20Paulista%2C%20130%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2009861-
+            160!5e0!3m2!1spt-BR!2sbr!4v1650297856408!5m2!1spt-BR!2sbr" 
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
 
-    <p>Av. Paulista, 130</p>
-    <p>São Paulo - SP</p>
+    <hr>
+    <footer>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.952851231822!2d-46.64755388502211!3d-23.570136784678528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bdec78c2bd%3A0xe90051b84d86ce71!2sAv.%20Paulista%2C%20130%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2009861-160!5e0!3m2!1spt-BR!2sbr!4v1650297856408!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/in_logo.png" 
+                alt="Logo do Linkedin">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/logo_insta3.png" 
+                alt="Logo do Instagram">
+            </a>
+            
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Cristian Wagmaker &copy
+        </p>
+
+    </footer>
+    
 </body>
 </html>

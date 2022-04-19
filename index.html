@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -16,28 +18,68 @@
         </li> 
     </ul>
 
-    <h1>Sobre o Cristian</h1>
+    <h1 class="center">Sobre o Cristian</h1>
+    <div class="container">
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, molestias placeat, quisquam possimus repellat officia id voluptas dignissimos eaque quos distinctio in? Incidunt, iure veniam. Tenetur est quis eius officiis cumque, inventore quidem tempora aspernatur, nisi ut officia temporibus fuga sit itaque aliquam repudiandae mollitia nemo qui deleniti recusandae quas.
-    </p>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, molestias placeat, quisquam possimus repellat officia id voluptas dignissimos eaque quos distinctio in? Incidunt, iure veniam. Tenetur est quis eius officiis cumque, inventore quidem tempora aspernatur, nisi ut officia temporibus fuga sit itaque aliquam repudiandae mollitia nemo qui deleniti recusandae quas.
-    </p>
+        <div>
+            <img class="br-50 wh p-30" src="https://github.com/criswagmaker.png" 
+            alt="Foto do criador do blog">
+        </div>
+        
+        <div class="p-30">
+            <p class ="justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, molestias 
+                placeat, quisquam possimus repellat officia id voluptas dignissimos eaque quos
+                distinctio in? Incidunt, iure veniam. Tenetur est quis eius officiis cumque, 
+                inventore quidem tempora aspernatur, nisi ut officia temporibus fuga sit 
+                itaque aliquam repudiandae mollitia nemo qui deleniti recusandae quas.
+            </p>
+            <p class="justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Saepe, molestias placeat, quisquam possimus repellat officia id voluptas 
+                dignissimos eaque quos distinctio in? Incidunt, iure veniam. 
+                Tenetur est quis eius officiis cumque, inventore quidem tempora aspernatur, 
+                nisi ut officia temporibus fuga sit itaque aliquam repudiandae mollitia nemo 
+                qui deleniti recusandae quas.
+            </p>
+        </div>
+    </div>
 
-    <img src="https://github.com/criswagmaker.png" alt="Foto do criador">
-
-    <h2>Meu Músico favorito</h2>
     
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/gEbXq_uDbZY" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
 
+    <h2 class="center">Meu Artista Favorito</h2>
+    <div class="container mb-50">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/gEbXq_uDbZY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+        ></iframe>
+    </div>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/in_logo.png" 
+                alt="Logo do Linkedin">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/logo_insta3.png" 
+                alt="Logo do Instagram">
+            </a>
+            
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Cristian Wagmaker &copy
+        </p>
+
+    </footer>
+    
 </body>
 </html>
